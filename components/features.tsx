@@ -5,7 +5,7 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
-import Medico from "../public/images/medico.jpg";
+
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
 
@@ -133,7 +133,9 @@ export default function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">
                       Participações
                     </div>
-                    <div className="text-gray-600">Participações</div>
+                    <div className="text-gray-600">
+                    Participações
+                    </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -177,7 +179,7 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={Medico}
+                        src={FeaturesBg}
                         width={500}
                         height="462"
                         alt="Features bg"
