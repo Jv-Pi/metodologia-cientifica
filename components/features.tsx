@@ -163,82 +163,27 @@ export default function Features() {
                   >
                     <div className="grid grid-cols-4 grid-rows-4 gap-4 bg-gray-200 p-4">
                       <img
-                        src="caminho/para/imagem1.jpg"
+                        src="\metodologia-cientifica\public\images\testimonial.jpg"
                         alt="Imagem 1"
                         className="w-full h-full object-cover"
                       />
                       <img
-                        src="caminho/para/imagem2.jpg"
-                        alt="Imagem 2"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem3.jpg"
-                        alt="Imagem 3"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem4.jpg"
-                        alt="Imagem 4"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem5.jpg"
-                        alt="Imagem 5"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem6.jpg"
-                        alt="Imagem 6"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem7.jpg"
-                        alt="Imagem 7"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem8.jpg"
-                        alt="Imagem 8"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem9.jpg"
-                        alt="Imagem 9"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem10.jpg"
-                        alt="Imagem 10"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem11.jpg"
-                        alt="Imagem 11"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem12.jpg"
-                        alt="Imagem 12"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="caminho/para/imagem13.jpg"
+                        src="\metodologia-cientifica\public\images\testimonial.jpg"
                         alt="Imagem 13"
                         className="w-full h-full object-cover"
                       />
                       <img
-                        src="caminho/para/imagem14.jpg"
+                        src="\metodologia-cientifica\public\images\testimonial.jpg"
                         alt="Imagem 14"
                         className="w-full h-full object-cover"
                       />
                       <img
-                        src="caminho/para/imagem15.jpg"
+                        src="\metodologia-cientifica\public\images\testimonial.jpg"
                         alt="Imagem 15"
                         className="w-full h-full object-cover"
                       />
                       <img
-                        src="caminho/para/imagem16.jpg"
+                        src="\metodologia-cientifica\public\images\testimonial.jpg"
                         alt="Imagem 16"
                         className="w-full h-full object-cover"
                       />
