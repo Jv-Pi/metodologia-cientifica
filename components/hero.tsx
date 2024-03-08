@@ -83,7 +83,7 @@ export default function Hero() {
             }}
           >
             {/* Imagem */}
-            <img
+            <Image
               src={Medica}
               alt="medica"
               style={{ maxWidth: "100%", height: "auto" }}

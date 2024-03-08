@@ -48,7 +48,7 @@ export default function Testimonials() {
               pagamento, por algum motivo, desistir do curso, terá 100% do seu
               dinheiro devolvido.
             </p>
-            <img src={SeloGarantia} alt="Garantia" />
+            <Image src={SeloGarantia} alt="Garantia" />
           </div>
         </div>
       </div>
