@@ -90,7 +90,7 @@ export default function Hero() {
               style={{ maxWidth: "100%", height: "600px" }}
             />
 
-            {/* Vídeo */}
+            {/* Vídeo 1' */}
             <ModalVideo
               thumb={VideoThumb}
               thumbWidth={768}
