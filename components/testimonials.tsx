@@ -44,11 +44,10 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">
-              GARANTIA DE SATISFAÇÃO</br> Se você, dentro do prazo de 7 dias
+              GARANTIA DE SATISFAÇÃO Se você, dentro do prazo de 7 dias
               corridos, contados da data de pagamento, por algum motivo,
               desistir do curso, terá 100% do seu dinheiro devolvido.
             </h2>
-            <img src="logo" alt="" srcset="" />
           </div>
         </div>
       </div>
