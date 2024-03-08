@@ -17,7 +17,7 @@ export default function Sobredr() {
               científicas, com mais de 50 artigos publicados em periódicos
               indexados.
             </p>
-            <p className="text-xl text-gray-600 flex mb-6">
+            <p className="text-xl text-gray-600 mb-6">
               Ao longo de sua jornada acadêmica, Sávio tem se destacado não
               apenas por suas realizações individuais, mas também por sua
               contribuição significativa ao MB Research Group, um grupo de
@@ -25,18 +25,16 @@ export default function Sobredr() {
               fortalecido a comunidade científica, evidenciando seu compromisso
               com a excelência na pesquisa principalmente na área
               neuro-endovascular.
-              <Image
-                className="max-w-3xl mx-300 text-center pb-12 md:pb-16 flex justify-center items-center"
-                src={Ele}
-                alt=""
-              />
             </p>
-            <p className="text-xl text-gray-600 mb-6">
-              Além de suas realizações locais, Sávio Batista prepara-se para um
-              novo capítulo em sua carreira. Com um Research Fellow já garantido
-              na Emory University, nos Estados Unidos, após a conclusão de seus
-              estudos na UFRJ.
-            </p>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Image src={Ele} />
+              <p className="text-xl text-gray-600 mb-6">
+                Além de suas realizações locais, Sávio Batista prepara-se para
+                um novo capítulo em sua carreira. Com um Research Fellow já
+                garantido na Emory University, nos Estados Unidos, após a
+                conclusão de seus estudos na UFRJ.
+              </p>
+            </div>
             <p className="text-xl text-gray-600 mb-6">
               Seu sucesso na área de pesquisa é reflexo de sua dedicação e
               estudo contínuo. Sávio Batista não apenas acumula conquistas
@@ -45,7 +43,7 @@ export default function Sobredr() {
               oportunidades nacionais e internacionais de trabalho à como
               conseguir alcançar esses sonhos!
             </p>
-            <button className=" transform bg-black text-white rounded-full font-medium group p-4 shadow-lg">
+            <button className="transform bg-black text-white rounded-full font-medium group p-4 shadow-lg">
               <a
                 href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
                 target="_blank"
