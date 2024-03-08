@@ -160,35 +160,7 @@ export default function Features() {
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
                     unmount={false}
-                  >
-                    <div className="grid grid-cols-4 grid-rows-4 gap-4 bg-gray-200 p-4">
-                      <img
-                        src="\metodologia-cientifica\public\images\testimonial.jpg"
-                        alt="Imagem 1"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="\metodologia-cientifica\public\images\testimonial.jpg"
-                        alt="Imagem 13"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="\metodologia-cientifica\public\images\testimonial.jpg"
-                        alt="Imagem 14"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="\metodologia-cientifica\public\images\testimonial.jpg"
-                        alt="Imagem 15"
-                        className="w-full h-full object-cover"
-                      />
-                      <img
-                        src="\metodologia-cientifica\public\images\testimonial.jpg"
-                        alt="Imagem 16"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </Transition>
+                  ></Transition>
                   {/* Item 2 */}
                   <Transition
                     show={tab === 2}
@@ -202,25 +174,7 @@ export default function Features() {
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
                     unmount={false}
-                  >
-                    <div className="relative inline-flex flex-col">
-                      <Image
-                        className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg}
-                        width={500}
-                        height="462"
-                        alt="Features bg"
-                      />
-                      <Image
-                        className="md:max-w-none absolute w-full left-0 transform animate-float"
-                        src={FeaturesElement}
-                        width={500}
-                        height="44"
-                        alt="Element"
-                        style={{ top: "30%" }}
-                      />
-                    </div>
-                  </Transition>
+                  ></Transition>
                   {/* Item 3 */}
                   {/*                   <Transition
                     show={tab === 3}
