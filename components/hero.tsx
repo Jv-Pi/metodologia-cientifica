@@ -73,16 +73,31 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Hero image */}
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={768}
-            thumbHeight={432}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          />
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              columnGap: "20px",
+            }}
+          >
+            {/* Imagem */}
+            <img
+              src="/metodologia-cientifica/public/images/testimonial.jpg"
+              alt="Imagem"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+
+            {/* Vídeo */}
+            <ModalVideo
+              thumb={VideoThumb}
+              thumbWidth={768}
+              thumbHeight={432}
+              thumbAlt="Modal video thumbnail"
+              video="/videos/video.mp4"
+              videoWidth={1920}
+              videoHeight={1080}
+            />
+          </div>
         </div>
       </div>
     </section>
