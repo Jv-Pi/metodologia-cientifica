@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 
@@ -42,8 +43,35 @@ export default function Features() {
               data-aos="fade-right"
             >
               {/* Tabs buttons */}
-
               <div className="mb-8 md:mb-0">
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab !== 1
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
+                      : "bg-gray-200 border-transparent"
+                  }`}
+                  href="#0"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setTab(1);
+                  }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">
+                      Eventos{" "}
+                    </div>
+                    <div className="text-gray-600">Fotos dos Eventos</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg
+                      className="w-3 h-3 fill-current"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 2
@@ -53,7 +81,7 @@ export default function Features() {
                   href="#0"
                   onClick={(e) => {
                     e.preventDefault();
-                    setTab(1);
+                    setTab(2);
                   }}
                 >
                   <div>
@@ -100,7 +128,23 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    asd
+                    eventos
+                  </Transition>
+                  {/* Item 2 */}
+                  <Transition
+                    show={tab === 2}
+                    appear={true}
+                    className="w-full"
+                    enter="transition ease-in-out duration-700 transform order-first"
+                    enterFrom="opacity-0 translate-y-16"
+                    enterTo="opacity-100 translate-y-0"
+                    leave="transition ease-in-out duration-300 transform absolute"
+                    leaveFrom="opacity-100 translate-y-0"
+                    leaveTo="opacity-0 -translate-y-16"
+                    beforeEnter={() => heightFix()}
+                    unmount={false}
+                  >
+                    artigos
                   </Transition>
                 </div>
               </div>
