@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import { Carousel, IconButton } from "@material-tailwind/react";
-
+export { Carousel, IconButton };
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
 
