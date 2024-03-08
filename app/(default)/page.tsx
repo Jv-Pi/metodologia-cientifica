@@ -8,7 +8,7 @@ import Features from "@/components/features";
 import FeaturesBlocks from "@/components/features-blocks";
 import Testimonials from "@/components/testimonials";
 import Newsletter from "@/components/newsletter";
-
+import Sobredr from "@/components/sobredr";
 export default function Home() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function Home() {
       <FeaturesBlocks />
       <Features />
       <Testimonials />
+      <Sobredr />
       <Newsletter />
     </>
   );
