@@ -161,25 +161,87 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative inline-flex flex-col">
-                      <div className="grid grid-cols-4 grid-rows-4 gap-4 bg-gray-200 p-4">
-                        <div className="bg-white p-4">01</div>
-                        <div className="bg-white p-4">02</div>
-                        <div className="bg-white p-4">03</div>
-                        <div className="bg-white p-4">04</div>
-                        <div className="bg-white p-4">05</div>
-                        <div className="bg-white p-4">06</div>
-                        <div className="bg-white p-4">07</div>
-                        <div className="bg-white p-4">08</div>
-                        <div className="bg-white p-4">09</div>
-                        <div className="bg-white p-4">10</div>
-                        <div className="bg-white p-4">11</div>
-                        <div className="bg-white p-4">12</div>
-                        <div className="bg-white p-4">13</div>
-                        <div className="bg-white p-4">14</div>
-                        <div className="bg-white p-4">15</div>
-                        <div className="bg-white p-4">16</div>
-                      </div>
+                    <div className="grid grid-cols-4 grid-rows-4 gap-4 bg-gray-200 p-4">
+                      <img
+                        src="caminho/para/imagem1.jpg"
+                        alt="Imagem 1"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem2.jpg"
+                        alt="Imagem 2"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem3.jpg"
+                        alt="Imagem 3"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem4.jpg"
+                        alt="Imagem 4"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem5.jpg"
+                        alt="Imagem 5"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem6.jpg"
+                        alt="Imagem 6"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem7.jpg"
+                        alt="Imagem 7"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem8.jpg"
+                        alt="Imagem 8"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem9.jpg"
+                        alt="Imagem 9"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem10.jpg"
+                        alt="Imagem 10"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem11.jpg"
+                        alt="Imagem 11"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem12.jpg"
+                        alt="Imagem 12"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem13.jpg"
+                        alt="Imagem 13"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem14.jpg"
+                        alt="Imagem 14"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem15.jpg"
+                        alt="Imagem 15"
+                        className="w-full h-full object-cover"
+                      />
+                      <img
+                        src="caminho/para/imagem16.jpg"
+                        alt="Imagem 16"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </Transition>
                   {/* Item 2 */}
