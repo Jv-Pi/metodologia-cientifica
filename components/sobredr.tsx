@@ -1,5 +1,3 @@
-import { text } from "stream/consumers";
-
 export default function Sobredr() {
   return (
     <section className="relative">
