@@ -2,11 +2,6 @@ export default function FeaturesBlocks() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2">
-        GARANTIA DE SATISFAÇÃO Se você, dentro do prazo de 7 dias corridos,
-        contados da data de pagamento, por algum motivo, desistir do curso, terá
-        100% do seu dinheiro devolvido. ZZZ icone logo
-      </div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
