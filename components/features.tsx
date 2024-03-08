@@ -2,7 +2,6 @@
 import ModalGalery from "@/components/modal-galery";
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
-import SeloGarantia from "../public/images/selo-garantia.png";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -102,12 +101,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <ModalGalery
-                      image={SeloGarantia}
-                      imageWidth={800}
-                      imageHeight={600}
-                      imageAlt="Description of Image 1"
-                    />{" "}
+                    asd
                   </Transition>
                 </div>
               </div>

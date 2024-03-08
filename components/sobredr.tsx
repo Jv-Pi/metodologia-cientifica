@@ -1,3 +1,5 @@
+import { text } from "stream/consumers";
+
 export default function Sobredr() {
   return (
     <section className="relative">
@@ -7,7 +9,7 @@ export default function Sobredr() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-left pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-justify pb-12 md:pb-20 grid">
             <p className="text-xl text-gray-600 mb-6">
               Sávio Batista é um aluno de destaque de 23 anos na Universidade
               Federal do Rio de Janeiro (UFRJ). Sua notável trajetória acadêmica
@@ -38,7 +40,7 @@ export default function Sobredr() {
               oportunidades nacionais e internacionais de trabalho à como
               conseguir alcançar esses sonhos!
             </p>
-            <button className=" transform bg-black text-white  rounded-full font-medium group p-4 shadow-lg">
+            <button className=" transform bg-black text-white rounded-full font-medium group p-4 shadow-lg">
               <span className="ml-3">Quero Fazer Parte do Time </span>
             </button>
           </div>
