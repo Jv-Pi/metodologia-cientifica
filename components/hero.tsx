@@ -1,6 +1,6 @@
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
-import Image from "next/image"; // Importe o componente Image do Next.js
+import Image from "next/image";
 import Medica from "../public/images/medico.jpg"; // Importe a imagem
 
 export default function Hero() {
