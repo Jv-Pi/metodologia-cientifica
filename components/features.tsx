@@ -5,7 +5,7 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
-
+import Medico from "../public/images/medico.jpg";
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
 
@@ -177,7 +177,7 @@ export default function Features() {
                     <div className="relative inline-flex flex-col">
                       <Image
                         className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg}
+                        src={Medico}
                         width={500}
                         height="462"
                         alt="Features bg"
