@@ -1,7 +1,8 @@
 "use client";
-
+import ModalGalery from "@/components/modal-galery";
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
+import SeloGarantia from "../public/images/selo-garantia.png";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -43,6 +44,7 @@ export default function Features() {
               data-aos="fade-right"
             >
               {/* Tabs buttons */}
+
               <div className="mb-8 md:mb-0">
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
@@ -100,7 +102,12 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    carousel
+                    <ModalGalery
+                      image={SeloGarantia}
+                      imageWidth={800}
+                      imageHeight={600}
+                      imageAlt="Description of Image 1"
+                    />{" "}
                   </Transition>
                 </div>
               </div>
