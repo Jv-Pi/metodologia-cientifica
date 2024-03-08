@@ -92,7 +92,7 @@ export default function Newsletter() {
               </svg>
             </div>
 
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
+            <div className="relative flex flex-col lg:flex-row justify-center items-center">
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">
@@ -101,9 +101,6 @@ export default function Newsletter() {
                 <p className="text-gray-300 text-lg mb-6">
                   Alcance a carreira médica dos seus sonhos, por meio de
                   publicações científicas.
-                </p>
-                <p className="text-gray-300 text-lg mb-6">
-                  Selecione a forma de pagamento
                 </p>
                 {/* CTA form */}
                 <form className="w-full lg:w-auto mb-6">
