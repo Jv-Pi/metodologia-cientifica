@@ -1,6 +1,6 @@
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
-import {Medico} from "../public/images/medico.jpg";
+import medica from "../public/images/medico.jng";
 export default function Hero() {
   return (
     <section className="relative">
@@ -82,8 +82,8 @@ export default function Hero() {
           >
             {/* Imagem */}
             <img
-              src={{Medico}}
-              alt="Imagem"
+              src={medica}
+              alt="medica"
               style={{ maxWidth: "100%", height: "auto" }}
             />
 
