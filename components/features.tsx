@@ -5,6 +5,7 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
+import SeloGarantia from "../public/images/selo-garantia.png"; // Importe a imagem
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -174,7 +175,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt="asd"
                           />
@@ -185,7 +186,7 @@ export default function Features() {
                           data-carousel-item="active"
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
@@ -196,7 +197,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
@@ -207,7 +208,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
@@ -218,7 +219,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
@@ -302,7 +303,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt="asd"
                           />
@@ -313,7 +314,7 @@ export default function Features() {
                           data-carousel-item="active"
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
@@ -324,7 +325,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
@@ -335,7 +336,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
@@ -346,7 +347,7 @@ export default function Features() {
                           data-carousel-item
                         >
                           <Image
-                            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+                            src={SeloGarantia}
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                             alt=""
                           />
