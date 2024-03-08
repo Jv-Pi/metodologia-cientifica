@@ -176,7 +176,7 @@ export default function Features() {
                           <img
                             src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
                             className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt=""
+                            alt="asd"
                           />
                         </div>
                         {/* Item 2 */}
