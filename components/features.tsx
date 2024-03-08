@@ -4,8 +4,6 @@ import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import Carousel from "react-bootstrap/Carousel";
-import ExampleCarouselImage from "components/ExampleCarouselImage";
-
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
 
@@ -163,7 +161,6 @@ export default function Features() {
                   >
                     <Carousel fade>
                       <Carousel.Item>
-                        <ExampleCarouselImage text="First slide" />
                         <Carousel.Caption>
                           <h3>First slide label</h3>
                           <p>
@@ -173,7 +170,6 @@ export default function Features() {
                         </Carousel.Caption>
                       </Carousel.Item>
                       <Carousel.Item>
-                        <ExampleCarouselImage text="Second slide" />
                         <Carousel.Caption>
                           <h3>Second slide label</h3>
                           <p>
@@ -183,7 +179,6 @@ export default function Features() {
                         </Carousel.Caption>
                       </Carousel.Item>
                       <Carousel.Item>
-                        <ExampleCarouselImage text="Third slide" />
                         <Carousel.Caption>
                           <h3>Third slide label</h3>
                           <p>
