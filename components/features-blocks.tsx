@@ -29,14 +29,7 @@ export default function FeaturesBlocks() {
               cardiologista e professor. O Dr. Rhanderson possui mais de 70
               publicações indexadas e mais de 1.400 citações. Além disso,
               diversos alunos já aplicaram o método do Dr. Rhanderson e
-              obtiveram resultados igualmente extraordinários.
-              <a
-                id="subscribeBtn"
-                className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
-                href="#0"
-              >
-                Comprar
-              </a>
+              obtiveram resultados igualmente extraordinários. QUICLIQUE A
               ATENÇÃO! O Intensivo de Metas não possui filiação às instituições
               de ensino mencionadas.
             </p>
