@@ -1,3 +1,4 @@
+import "@/public/images";
 export default function Testimonials() {
   return (
     <section className="relative">
