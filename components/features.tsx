@@ -3,7 +3,13 @@
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "./components/carousel.component";
+let slides = [
+  "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
+  "https://wallpapercave.com/wp/wp3386769.jpg",
+  "https://wallpaperaccess.com/full/809523.jpg",
+  "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
+];
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
 
@@ -159,35 +165,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <Carousel fade>
-                      <Carousel.Item>
-                        <Carousel.Caption>
-                          <h3>First slide label</h3>
-                          <p>
-                            Nulla vitae elit libero, a pharetra augue mollis
-                            interdum.
-                          </p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <Carousel.Caption>
-                          <h3>Second slide label</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                      <Carousel.Item>
-                        <Carousel.Caption>
-                          <h3>Third slide label</h3>
-                          <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl
-                            consectetur.
-                          </p>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                    </Carousel>
+                    <Carousel slides={slides} />
                   </Transition>
                   {/* Item 2 */}
                   <Transition
