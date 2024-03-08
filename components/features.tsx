@@ -3,13 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import Carousel from "../components/carousel.component";
-let slides = [
-  "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
-  "https://wallpapercave.com/wp/wp3386769.jpg",
-  "https://wallpaperaccess.com/full/809523.jpg",
-  "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
-];
+import Carousel from "react-bootstrap/Carousel";
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
 
@@ -165,7 +159,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <Carousel slides={slides} />
+                    asd
                   </Transition>
                   {/* Item 2 */}
                   <Transition
