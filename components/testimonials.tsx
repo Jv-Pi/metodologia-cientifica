@@ -1,4 +1,3 @@
-import "../public/images";
 export default function Testimonials() {
   return (
     <section className="relative">
@@ -47,7 +46,7 @@ export default function Testimonials() {
               pagamento, por algum motivo, desistir do curso, terá 100% do seu
               dinheiro devolvido.
             </p>
-            <img src="/selo-garantia.png" alt="" />
+            <img src="../public/images/selo-garantia.png" alt="" />
           </div>
         </div>
       </div>
