@@ -13,7 +13,7 @@ export default function Banner() {
             <div className="text-slate-500 inline-flex">
               <a
                 className="font-medium hover:underline text-emerald-400"
-                href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
+                href="https://pay.kiwify.com.br/UIbHZXT"
                 target="_blank"
                 rel="noreferrer"
               >

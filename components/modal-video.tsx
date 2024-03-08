@@ -113,10 +113,7 @@ export default function ModalVideo({
             }}
             className="absolute top-full flex items-center transform -translate-y-1/2 bg-black text-white  rounded-full font-medium group p-4 shadow-lg"
           >
-            <a
-              href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
-              target="_blank"
-            >
+            <a href="https://pay.kiwify.com.br/UIbHZXT" target="_blank">
               {" "}
               <span className="ml-3">Quero Fazer Parte do Time </span>{" "}
             </a>

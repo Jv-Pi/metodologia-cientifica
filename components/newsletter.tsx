@@ -113,7 +113,7 @@ export default function Newsletter() {
               </p>
               <a
                 target="_blank"
-                href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
+                href="https://pay.kiwify.com.br/UIbHZXT"
                 className="bg-blue-600 text-white hover:bg-blue-700 py-3 px-8 rounded-lg inline-block font-semibold shadow-lg transition duration-300"
               >
                 Comprar
