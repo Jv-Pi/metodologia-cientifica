@@ -92,7 +92,7 @@ export default function Newsletter() {
               </svg>
             </div>
 
-            <div className="relative flex flex-col lg:flex-row justify-center items-center">
+            <div className="relative flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-2">
@@ -103,20 +103,13 @@ export default function Newsletter() {
                   publicações científicas.
                 </p>
                 {/* CTA form */}
-                <form className="w-full lg:w-auto mb-6">
-                  <a
-                    id="subscribeBtn"
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
-                    href="#0"
-                  >
-                    Comprar
-                  </a>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">
-                    No spam. You can unsubscribe at any time.
-                  </p>
-                </form>
+                <a
+                  id="subscribeBtn"
+                  className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
+                  href="#0"
+                >
+                  Comprar
+                </a>
               </div>
             </div>
           </div>
