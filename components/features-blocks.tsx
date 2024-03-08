@@ -33,13 +33,14 @@ export default function FeaturesBlocks() {
               garanta sua participação neste curso que pode transformar sua
               abordagem à pesquisa científica.
             </p>
-            <a
-              id="subscribeBtn"
-              className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
-              href="#0"
+            <button
+              style={{
+                marginTop: "100px",
+              }}
+              className="absolute top-full flex items-center transform -translate-y-1/2 bg-black text-white  rounded-full font-medium group p-4 shadow-lg"
             >
-              Quero Fazer parte do Time
-            </a>
+              <span className="ml-3">Quero Fazer Parte do Time </span>
+            </button>
           </div>
         </div>
       </div>
