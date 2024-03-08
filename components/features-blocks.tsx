@@ -2,7 +2,9 @@ export default function FeaturesBlocks() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <h2 className="h2 text-center mb-4">Sobre a Metodologia Cientifíca</h2>
+      <h2 className="h2 text-center mb-4 mt-16">
+        Sobre a Metodologia Cientifíca
+      </h2>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
@@ -34,7 +36,12 @@ export default function FeaturesBlocks() {
               abordagem à pesquisa científica.
             </p>
             <button className="items-center transform bg-black text-white  rounded-full font-medium group p-4 shadow-lg">
-              <span className="ml-3">Quero Fazer Parte do Time </span>
+              <a
+                href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
+                target="_blank"
+              >
+                <span className="ml-3">Quero Fazer Parte do Time </span>
+              </a>
             </button>
           </div>
         </div>

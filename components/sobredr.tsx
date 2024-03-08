@@ -39,7 +39,12 @@ export default function Sobredr() {
               conseguir alcançar esses sonhos!
             </p>
             <button className=" transform bg-black text-white rounded-full font-medium group p-4 shadow-lg">
-              <span className="ml-3">Quero Fazer Parte do Time </span>
+              <a
+                href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
+                target="_blank"
+              >
+                <span className="ml-3">Quero Fazer Parte do Time </span>
+              </a>
             </button>
           </div>
         </div>

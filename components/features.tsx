@@ -9,7 +9,6 @@ import Image2 from "@/public/images/2.jpeg";
 import Image3 from "@/public/images/3.jpeg";
 import Image4 from "@/public/images/4.jpeg";
 import Image5 from "@/public/images/5.jpeg";
-import Image6 from "@/public/images/6.jpeg";
 
 import Paper2 from "@/public/images/Screenshot_2.png";
 import Paper3 from "@/public/images/Screenshot_3.png";
@@ -173,11 +172,6 @@ export default function Features() {
                       />
                       <Image
                         src={Image5}
-                        alt="image 3"
-                        className="h-96 w-full object-cover"
-                      />
-                      <Image
-                        src={Image6}
                         alt="image 3"
                         className="h-96 w-full object-cover"
                       />

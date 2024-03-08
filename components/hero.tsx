@@ -1,7 +1,5 @@
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
-import Image from "next/image";
-import Medica from "../public/images/medico.jpg"; // Importe a imagem
 
 export default function Hero() {
   return (
@@ -74,33 +72,16 @@ export default function Hero() {
               </div>
             </div>
           </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              columnGap: "20px",
-              alignItems: "center",
-            }}
-          >
-            {/* Imagem  1 */}
-            <Image
-              src={Medica}
-              alt="medica"
-              style={{ maxWidth: "100%", height: "600px" }}
-            />
-
-            {/* Vídeo  */}
-            <ModalVideo
-              thumb={VideoThumb}
-              thumbWidth={768}
-              thumbHeight={432}
-              thumbAlt="Modal video thumbnail"
-              video="/videos/video.mp4"
-              videoWidth={1920}
-              videoHeight={1080}
-            />
-          </div>
+          {/* Vídeo  */}
+          <ModalVideo
+            thumb={VideoThumb}
+            thumbWidth={768}
+            thumbHeight={432}
+            thumbAlt="Modal video thumbnail"
+            video="/videos/video.mp4"
+            videoWidth={1920}
+            videoHeight={1080}
+          />
         </div>
       </div>
     </section>

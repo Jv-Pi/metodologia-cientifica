@@ -9,6 +9,7 @@ import FeaturesBlocks from "@/components/features-blocks";
 import Testimonials from "@/components/testimonials";
 import Newsletter from "@/components/newsletter";
 import Sobredr from "@/components/sobredr";
+import Banner from "@/components/banner";
 export default function Home() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function Home() {
       <Testimonials />
       <Sobredr />
       <Newsletter />
+      <Banner />
     </>
   );
 }

@@ -88,26 +88,6 @@ export default function ModalVideo({
                 </radialGradient>
                 <circle id="hero-ill-d" cx="384" cy="216" r="64" />
               </defs>
-              <g fill="none" fillRule="evenodd">
-                <circle
-                  fillOpacity=".04"
-                  fill="url(#hero-ill-a)"
-                  cx="384"
-                  cy="216"
-                  r="128"
-                />
-                <circle
-                  fillOpacity=".16"
-                  fill="url(#hero-ill-b)"
-                  cx="384"
-                  cy="216"
-                  r="96"
-                />
-                <g fillRule="nonzero">
-                  <use fill="#000" xlinkHref="#hero-ill-d" />
-                  <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
-                </g>
-              </g>
             </svg>
           </div>
           <button
@@ -126,13 +106,20 @@ export default function ModalVideo({
             </svg>
             <span className="ml-3">Watch the full video (2 min)</span>
           </button>
+
           <button
             style={{
               marginTop: "100px",
             }}
             className="absolute top-full flex items-center transform -translate-y-1/2 bg-black text-white  rounded-full font-medium group p-4 shadow-lg"
           >
-            <span className="ml-3">Quero Fazer Parte do Time </span>
+            <a
+              href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
+              target="_blank"
+            >
+              {" "}
+              <span className="ml-3">Quero Fazer Parte do Time </span>{" "}
+            </a>
           </button>
         </div>
       </div>

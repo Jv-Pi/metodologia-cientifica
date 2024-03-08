@@ -92,25 +92,32 @@ export default function Newsletter() {
               </svg>
             </div>
 
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
-              {/* CTA content */}
-              <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">
-                  Qual o Investimento para fazer parte da Metologia Científica?
-                </h3>
-                <p className="text-gray-300 text-lg mb-6">
-                  Alcance a carreira médica dos seus sonhos, por meio de
-                  publicações científicas.
-                </p>
-                {/* CTA form */}
-                <a
-                  id="subscribeBtn"
-                  className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
-                  href="#0"
-                >
-                  Comprar
-                </a>
+            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 ">
+              <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 text-white">
+                Qual o Investimento para fazer parte da Metodologia Científica?
+              </h1>
+              <p className="text-lg text-gray-600 mb-8 text-white">
+                Alcance a carreira médica dos seus sonhos, por meio de
+                publicações científicas.
+              </p>
+              <div className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+                <span className="text-red-500 line-through mr-2">
+                  De R$ 1.500,00
+                </span>
+                <br />
+                <span className="text-blue-600">R$ 1.000,00</span>
               </div>
+              <p className="text-lg text-white mb-8">
+                <strong className="text-green-500">Desconto de 33.33%!</strong>{" "}
+                Aproveite agora!
+              </p>
+              <a
+                target="_blank"
+                href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
+                className="bg-blue-600 text-white hover:bg-blue-700 py-3 px-8 rounded-lg inline-block font-semibold shadow-lg transition duration-300"
+              >
+                Comprar
+              </a>
             </div>
           </div>
         </div>
