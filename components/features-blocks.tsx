@@ -26,7 +26,7 @@ export default function FeaturesBlocks() {
               Universidade Federal do Rio de Janeiro , possui ampla experiência
               em pesquisa, com mais de 50 publicações indexadas, contratado para
               um research fellow nos EUA antes mesmo de terminar a faculdade e
-              membro de um garnde grupo brasileiro de pesquisa o MB Research
+              membro de um grande grupo brasileiro de pesquisa o MB Research
               Group.
             </p>
             <p className="text-xl text-gray-600 mb-6">

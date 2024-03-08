@@ -105,7 +105,7 @@ export default function Newsletter() {
                   De R$ 1.798,00
                 </span>
                 <br />
-                <span className="text-blue-600">R$ 1.000,00</span>
+                <span className="text-blue-600">4x R$ 250,00</span>
               </div>
               <p className="text-lg text-white mb-8">
                 <strong className="text-green-500">Desconto de 33.33%!</strong>{" "}
