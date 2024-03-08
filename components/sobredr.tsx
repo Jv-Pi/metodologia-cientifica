@@ -10,20 +10,23 @@ export default function Sobredr() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-justify pb-12 md:pb-20 grid">
-            <p className="text-xl text-gray-600 flex mb-6">
+            <p className="text-xl text-gray-600 mb-6">
               Sávio Batista é um aluno de destaque de 23 anos na Universidade
               Federal do Rio de Janeiro (UFRJ). Sua notável trajetória acadêmica
               e profissional destaca-o como um especialista em publicações
               científicas, com mais de 50 artigos publicados em periódicos
-              indexados. Ao longo de sua jornada acadêmica, Sávio tem se
-              destacado não apenas por suas realizações individuais, mas também
-              por sua contribuição significativa ao MB Research Group, um grupo
-              de pesquisa brasileiro. Sua participação ativa neste grupo tem
+              indexados.
+            </p>
+            <p className="text-xl text-gray-600 flex mb-6">
+              Ao longo de sua jornada acadêmica, Sávio tem se destacado não
+              apenas por suas realizações individuais, mas também por sua
+              contribuição significativa ao MB Research Group, um grupo de
+              pesquisa brasileiro. Sua participação ativa neste grupo tem
               fortalecido a comunidade científica, evidenciando seu compromisso
               com a excelência na pesquisa principalmente na área
               neuro-endovascular.
               <Image
-                className="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex justify-center items-center"
+                className="max-w-3xl mx-300 text-center pb-12 md:pb-16 flex justify-center items-center"
                 src={Ele}
                 alt=""
               />
