@@ -34,14 +34,8 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">"Nós escolhemos ir à lua."</h1>
-            <h5 className="h2 mb-4">John F. Kennedy, 1962</h5>
-            <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
-            </p>
+            <p className="text-xl text-gray-600">John F. Kennedy, 1962</p>
           </div>
-
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
             {/* Content */}
@@ -65,9 +59,9 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      alunos{" "}
+                      Alunos{" "}
                     </div>
-                    <div className="text-gray-600">alunos</div>
+                    <div className="text-gray-600">Fotos das apresentações</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -93,9 +87,9 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Papers
+                      Papeis
                     </div>
-                    <div className="text-gray-600">Papers</div>
+                    <div className="text-gray-600">Artigos em papeis</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -110,7 +104,7 @@ export default function Features() {
                     </svg>
                   </div>
                 </a>
-                <a
+                {/*                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab !== 3
                       ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
@@ -126,9 +120,7 @@ export default function Features() {
                     <div className="font-bold leading-snug tracking-tight mb-1">
                       Participações
                     </div>
-                    <div className="text-gray-600">
-                    Participações
-                    </div>
+                    <div className="text-gray-600">Participações</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -143,7 +135,7 @@ export default function Features() {
                       />
                     </svg>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -169,8 +161,8 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                  <div className="relative inline-flex flex-col">
-                    <div className="grid grid-cols-4 grid-rows-4 gap-4 bg-gray-200 p-4">
+                    <div className="relative inline-flex flex-col">
+                      <div className="grid grid-cols-4 grid-rows-4 gap-4 bg-gray-200 p-4">
                         <div className="bg-white p-4">01</div>
                         <div className="bg-white p-4">02</div>
                         <div className="bg-white p-4">03</div>
@@ -188,7 +180,7 @@ export default function Features() {
                         <div className="bg-white p-4">15</div>
                         <div className="bg-white p-4">16</div>
                       </div>
-                  </div>
+                    </div>
                   </Transition>
                   {/* Item 2 */}
                   <Transition
@@ -223,7 +215,7 @@ export default function Features() {
                     </div>
                   </Transition>
                   {/* Item 3 */}
-                  <Transition
+                  {/*                   <Transition
                     show={tab === 3}
                     appear={true}
                     className="w-full"
@@ -253,7 +245,7 @@ export default function Features() {
                         style={{ top: "30%" }}
                       />
                     </div>
-                  </Transition>
+                  </Transition> */}
                 </div>
               </div>
             </div>
