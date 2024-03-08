@@ -1,5 +1,4 @@
-import Image from "next/image";
-import TestimonialImage from "@/public/images/testimonial.jpg";
+import Selo7dias from "@/public/images/selo-garantia.png";
 
 export default function Testimonials() {
   return (
@@ -43,11 +42,13 @@ export default function Testimonials() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">
-              GARANTIA DE SATISFAÇÃO Se você, dentro do prazo de 7 dias
-              corridos, contados da data de pagamento, por algum motivo,
-              desistir do curso, terá 100% do seu dinheiro devolvido.
-            </h2>
+            <h2 className="h2 mb-4">GARANTIA DE SATISFAÇÃO</h2>
+            <p className="text-xl text-gray-600 mb-6">
+              Se você, dentro do prazo de 7 dias corridos, contados da data de
+              pagamento, por algum motivo, desistir do curso, terá 100% do seu
+              dinheiro devolvido.
+            </p>
+            <img src={Selo7dias} alt="" />
           </div>
         </div>
       </div>
