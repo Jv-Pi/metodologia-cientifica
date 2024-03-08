@@ -126,7 +126,12 @@ export default function ModalVideo({
             </svg>
             <span className="ml-3">Watch the full video (2 min)</span>
           </button>
-          <button className="absolute top-full flex items-center transform -translate-y-1/2 mt-4 bg-white rounded-full font-medium group p-4 shadow-lg">
+          <button
+            style={{
+              marginTop: "100px",
+            }}
+            className="absolute top-full flex items-center transform -translate-y-1/2 bg-black text-white  rounded-full font-medium group p-4 shadow-lg"
+          >
             <span className="ml-3">Quero Fazer Parte do Time </span>
           </button>
         </div>
