@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Ele from "../public/images/ele.jpeg";
+
 export default function Sobredr() {
   return (
     <section className="relative">
