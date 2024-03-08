@@ -83,7 +83,7 @@ export default function Hero() {
               alignItems: "center",
             }}
           >
-            {/* Imagem */}
+            {/* Imagem  1 */}
             <Image
               src={Medica}
               alt="medica"
