@@ -170,7 +170,7 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                    <div class="grid grid-rows-2 grid-flow-col">
+                    <div className="grid grid-rows-2 grid-flow-col">
                       <div>01</div>
                       <div>09</div>
                     </div>
