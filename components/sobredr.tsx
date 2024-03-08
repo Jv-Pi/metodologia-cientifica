@@ -10,7 +10,10 @@ export default function Sobredr() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-justify pb-12 md:pb-20 justify-items-center grid">
-            <p className="text-xl max-w-3xl mx-auto flex text-gray-600 mb-6">
+            <p
+              className="ImagemResponsiva"
+              className="text-xl max-w-3xl mx-auto flex text-gray-600 mb-6"
+            >
               Sávio Batista é um aluno de destaque de 23 anos na Universidade
               Federal do Rio de Janeiro (UFRJ). Sua notável trajetória acadêmica
               e profissional destaca-o como um especialista em publicações
