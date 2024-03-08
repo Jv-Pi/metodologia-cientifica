@@ -28,7 +28,7 @@ export default function Sobredr() {
               <Image
                 src={Ele}
                 alt="Ele"
-                style={{ width: "300px", marginLeft: "30px" }}
+                style={{ maxWidth: "100%", width: "300px", marginLeft: "30px" }}
               />
             </p>
             <p className="text-xl text-gray-600 mb-6">
