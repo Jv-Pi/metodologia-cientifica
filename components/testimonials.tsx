@@ -1,3 +1,4 @@
+import VideoThumb from "@/public/images/selo-garantia.png";
 export default function Testimonials() {
   return (
     <section className="relative">
@@ -46,7 +47,7 @@ export default function Testimonials() {
               pagamento, por algum motivo, desistir do curso, terá 100% do seu
               dinheiro devolvido.
             </p>
-            <img src="../public/images/selo-garantia.png" alt="" />
+            <img src={VideoThumb} alt="" />
           </div>
         </div>
       </div>
