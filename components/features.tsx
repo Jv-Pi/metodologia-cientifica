@@ -150,11 +150,7 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <Carousel
-                      loop="true"
-                      autoplay="true"
-                      className="rounded-xl"
-                    >
+                    <Carousel loop autoplay className="rounded-xl">
                       <Image
                         src={Image1}
                         alt="image 1"
