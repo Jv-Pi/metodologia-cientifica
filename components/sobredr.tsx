@@ -15,10 +15,13 @@ export default function Sobredr() {
               Federal do Rio de Janeiro (UFRJ). Sua notável trajetória acadêmica
               e profissional destaca-o como um especialista em publicações
               científicas, com mais de 50 artigos publicados em periódicos
-              indexados. Ao longo de sua jornada acadêmica, Sávio tem se
-              destacado não apenas por suas realizações individuais, mas também
-              por sua contribuição significativa ao MB Research Group, um grupo
-              de pesquisa brasileiro. Sua participação ativa neste grupo tem
+              indexados.
+              <br />
+              <br />
+              Ao longo de sua jornada acadêmica, Sávio tem se destacado não
+              apenas por suas realizações individuais, mas também por sua
+              contribuição significativa ao MB Research Group, um grupo de
+              pesquisa brasileiro. Sua participação ativa neste grupo tem
               fortalecido a comunidade científica, evidenciando seu compromisso
               com a excelência na pesquisa principalmente na área
               neuro-endovascular.
