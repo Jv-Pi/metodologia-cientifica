@@ -80,6 +80,7 @@ export default function Hero() {
               display: "grid",
               gridTemplateColumns: "1fr 1fr",
               columnGap: "20px",
+              alignItems: "center",
             }}
           >
             {/* Imagem */}
