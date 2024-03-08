@@ -7,7 +7,7 @@ export default function Sobredr() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-left pb-12 md:pb-20">
             <p className="text-xl text-gray-600 mb-6">
               Sávio Batista é um aluno de destaque de 23 anos na Universidade
               Federal do Rio de Janeiro (UFRJ). Sua notável trajetória acadêmica
