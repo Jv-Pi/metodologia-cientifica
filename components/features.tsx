@@ -169,12 +169,26 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div className="relative inline-flex flex-col">
-                    <div className="grid grid-rows-2 grid-flow-col">
-                      <div>01</div>
-                      <div>09</div>
-                    </div>
-                    </div>
+                  <div className="relative inline-flex flex-col">
+                    <div className="grid grid-cols-4 grid-rows-4 gap-4 bg-gray-200 p-4">
+                        <div className="bg-white p-4">01</div>
+                        <div className="bg-white p-4">02</div>
+                        <div className="bg-white p-4">03</div>
+                        <div className="bg-white p-4">04</div>
+                        <div className="bg-white p-4">05</div>
+                        <div className="bg-white p-4">06</div>
+                        <div className="bg-white p-4">07</div>
+                        <div className="bg-white p-4">08</div>
+                        <div className="bg-white p-4">09</div>
+                        <div className="bg-white p-4">10</div>
+                        <div className="bg-white p-4">11</div>
+                        <div className="bg-white p-4">12</div>
+                        <div className="bg-white p-4">13</div>
+                        <div className="bg-white p-4">14</div>
+                        <div className="bg-white p-4">15</div>
+                        <div className="bg-white p-4">16</div>
+                      </div>
+                  </div>
                   </Transition>
                   {/* Item 2 */}
                   <Transition
