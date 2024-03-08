@@ -10,9 +10,6 @@ export default function Sobredr() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-justify pb-12 md:pb-20 grid md:grid-cols-2 gap-x-8 items-center">
-            <div className="text-center pb-12 md:pb-16 flex justify-center items-center">
-              <Image className="max-w-full h-auto" src={Ele} alt="Garantia" />
-            </div>
             <div>
               <p className="text-xl text-gray-600 mb-6">
                 Sávio Batista é um aluno de destaque de 23 anos na Universidade
@@ -21,6 +18,11 @@ export default function Sobredr() {
                 publicações científicas, com mais de 50 artigos publicados em
                 periódicos indexados.
               </p>
+              <Image
+                className="max-w-full h-auto mx-auto my-8"
+                src={Ele}
+                alt="Garantia"
+              />
               <p className="text-xl text-gray-600 mb-6">
                 Ao longo de sua jornada acadêmica, Sávio tem se destacado não
                 apenas por suas realizações individuais, mas também por sua
