@@ -5,7 +5,7 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import FeaturesBg from "@/public/images/features-bg.png";
 import FeaturesElement from "@/public/images/features-element.png";
-import SeloGarantia from "../public/images/selo-garantia.png"; // Importe a imagem
+import { Carousel, IconButton } from "@material-tailwind/react";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -162,119 +162,73 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    <div
-                      id="gallery"
-                      className="relative w-full"
-                      data-carousel="slide"
+                    <Carousel
+                      className="rounded-xl"
+                      prevArrow={({ handlePrev }) => (
+                        <IconButton
+                          variant="text"
+                          color="white"
+                          size="lg"
+                          onClick={handlePrev}
+                          className="!absolute top-2/4 left-4 -translate-y-2/4"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={2}
+                            stroke="currentColor"
+                            className="h-6 w-6"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+                            />
+                          </svg>
+                        </IconButton>
+                      )}
+                      nextArrow={({ handleNext }) => (
+                        <IconButton
+                          variant="text"
+                          color="white"
+                          size="lg"
+                          onClick={handleNext}
+                          className="!absolute top-2/4 !right-4 -translate-y-2/4"
+                        >
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={2}
+                            stroke="currentColor"
+                            className="h-6 w-6"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                            />
+                          </svg>
+                        </IconButton>
+                      )}
                     >
-                      {/* Carousel wrapper */}
-                      <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-                        {/* Item 1 */}
-                        <div
-                          className="hidden duration-700 ease-in-out"
-                          data-carousel-item
-                        >
-                          <Image
-                            src={SeloGarantia}
-                            className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt="asd"
-                          />
-                        </div>
-                        {/* Item 2 */}
-                        <div
-                          className="hidden duration-700 ease-in-out"
-                          data-carousel-item="active"
-                        >
-                          <Image
-                            src={SeloGarantia}
-                            className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt=""
-                          />
-                        </div>
-                        {/* Item 3 */}
-                        <div
-                          className="hidden duration-700 ease-in-out"
-                          data-carousel-item
-                        >
-                          <Image
-                            src={SeloGarantia}
-                            className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt=""
-                          />
-                        </div>
-                        {/* Item 4 */}
-                        <div
-                          className="hidden duration-700 ease-in-out"
-                          data-carousel-item
-                        >
-                          <Image
-                            src={SeloGarantia}
-                            className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt=""
-                          />
-                        </div>
-                        {/* Item 5 */}
-                        <div
-                          className="hidden duration-700 ease-in-out"
-                          data-carousel-item
-                        >
-                          <Image
-                            src={SeloGarantia}
-                            className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      {/* Slider controls */}
-                      <button
-                        type="button"
-                        className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                        data-carousel-prev
-                      >
-                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                          <svg
-                            className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 6 10"
-                          >
-                            <path
-                              stroke="currentColor"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M5 1 1 5l4 4"
-                            />
-                          </svg>
-                          <span className="sr-only">Previous</span>
-                        </span>
-                      </button>
-                      <button
-                        type="button"
-                        className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                        data-carousel-next
-                      >
-                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                          <svg
-                            className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 6 10"
-                          >
-                            <path
-                              stroke="currentColor"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="m1 9 4-4-4-4"
-                            />
-                          </svg>
-                          <span className="sr-only">Next</span>
-                        </span>
-                      </button>
-                    </div>
+                      <img
+                        src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+                        alt="image 1"
+                        className="h-full w-full object-cover"
+                      />
+                      <img
+                        src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+                        alt="image 2"
+                        className="h-full w-full object-cover"
+                      />
+                      <img
+                        src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+                        alt="image 3"
+                        className="h-full w-full object-cover"
+                      />
+                    </Carousel>
                   </Transition>
                   {/* Item 2 */}
                   <Transition
