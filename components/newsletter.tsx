@@ -102,7 +102,7 @@ export default function Newsletter() {
               </p>
               <div className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
                 <span className="text-red-500 line-through mr-2">
-                  De R$ 1.500,00
+                  De R$ 1.798,00
                 </span>
                 <br />
                 <span className="text-blue-600">R$ 1.000,00</span>

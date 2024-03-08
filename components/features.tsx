@@ -107,9 +107,9 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Papeis
+                      Papers
                     </div>
-                    <div className="text-gray-600">Artigos em papeis</div>
+                    <div className="text-gray-600">Artigos Indexados</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
