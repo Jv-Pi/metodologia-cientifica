@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import Carousel from "./components/carousel.component";
+import Carousel from "../components/carousel.component";
 let slides = [
   "https://i.pinimg.com/originals/51/82/ac/5182ac536727d576c78a9320ac62de30.jpg",
   "https://wallpapercave.com/wp/wp3386769.jpg",
