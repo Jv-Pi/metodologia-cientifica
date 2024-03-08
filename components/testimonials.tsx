@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Medica from "../public/images/medica.jpg"; // Importe a imagem
+import SeloGarantia from "../public/images/selo-garantia.png"; // Importe a imagem
 export default function Testimonials() {
   return (
     <section className="relative">
@@ -48,7 +48,7 @@ export default function Testimonials() {
               pagamento, por algum motivo, desistir do curso, terá 100% do seu
               dinheiro devolvido.
             </p>
-            <img src={Medica} alt="" />
+            <img src={SeloGarantia} alt="Garantia" />
           </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
+import Image from "next/image"; // Importe o componente Image do Next.js
+import Medica from "../public/images/medico.jpg"; // Importe a imagem
 
 export default function Hero() {
   return (
@@ -82,7 +84,7 @@ export default function Hero() {
           >
             {/* Imagem */}
             <img
-              src="@/public/images/medico.jpg"
+              src={Medica}
               alt="medica"
               style={{ maxWidth: "100%", height: "auto" }}
             />
