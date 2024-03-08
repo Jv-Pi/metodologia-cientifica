@@ -72,12 +72,9 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                      alunos{" "}
                     </div>
-                    <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
-                    </div>
+                    <div className="text-gray-600">alunos</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -103,12 +100,9 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                      Papers
                     </div>
-                    <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
-                    </div>
+                    <div className="text-gray-600">Papers</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
@@ -137,12 +131,9 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple ecosystem
+                      Participações
                     </div>
-                    <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
-                    </div>
+                    <div className="text-gray-600">Participações</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg
