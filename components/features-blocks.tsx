@@ -20,19 +20,18 @@ export default function FeaturesBlocks() {
               manuscrito. O formato do curso é dividido em aulas teóricas e
               práticas para te conduzir a fazer uma revisão sistemática e
               meta-análise de forma independente.
-              <p />
-              <p className="text-xl text-gray-600">
-                O professor do Intensivo de Metas é o Dr. Rhanderson Cardoso,
-                médico cardiologista formado pela Universidade Federal de Goiás,
-                com residência em clínica médica pela Universidade de Miami e
-                residência em cardiologia pelo Hospital Johns Hopkins, nos EUA.
-                O Dr. Rhanderson também foi fellow e chief fellow em imagem
-                cardíaca na Harvard Medical School, Brigham and Women’s
-                Hospital, onde atualmente atua como cardiologista e professor. O
-                Dr. Rhanderson possui mais de 70 publicações indexadas e mais de
-                1.400 citações.
-              </p>
-              <p className="text-xl text-gray-600">
+            </p>
+            <p className="text-xl text-gray-600">
+              O professor do Intensivo de Metas é o Dr. Rhanderson Cardoso,
+              médico cardiologista formado pela Universidade Federal de Goiás,
+              com residência em clínica médica pela Universidade de Miami e
+              residência em cardiologia pelo Hospital Johns Hopkins, nos EUA. O
+              Dr. Rhanderson também foi fellow e chief fellow em imagem cardíaca
+              na Harvard Medical School, Brigham and Women’s Hospital, onde
+              atualmente atua como cardiologista e professor. O Dr. Rhanderson
+              possui mais de 70 publicações indexadas e mais de 1.400 citações.
+            </p>
+            <p className="text-xl text-gray-600">
               Além disso, diversos alunos já aplicaram o método do Dr.
               Rhanderson e obtiveram resultados igualmente extraordinários.
               <a
@@ -42,18 +41,18 @@ export default function FeaturesBlocks() {
               >
                 Clica Aqui
               </a>
-              </p>
-              <p className="text-xl text-gray-600">
+            </p>
+            <p className="text-xl text-gray-600">
               ATENÇÃO! O Intensivo de Metas não possui filiação às instituições
               de ensino mencionadas.
-              </p>
-              <a
-                id="subscribeBtn"
-                className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
-                href="#0"
-              >
-                Clica Aqui
-              </a>
+            </p>
+            <a
+              id="subscribeBtn"
+              className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
+              href="#0"
+            >
+              Clica Aqui
+            </a>
           </div>
         </div>
       </div>
