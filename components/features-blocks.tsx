@@ -36,10 +36,7 @@ export default function FeaturesBlocks() {
               abordagem à pesquisa científica.
             </p>
             <button className="items-center transform bg-black text-white  rounded-full font-medium group p-4 shadow-lg">
-              <a
-                href="https://metodologiacientifica.eadplataforma.app/curso/metocientifica"
-                target="_blank"
-              >
+              <a href="https://pay.kiwify.com.br/UIbHZXT" target="_blank">
                 <span className="ml-3">Quero Fazer Parte do Time </span>
               </a>
             </button>
