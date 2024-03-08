@@ -27,7 +27,11 @@ export default function Sobredr() {
               neuro-endovascular.
             </p>
             <div style={{ display: "flex", alignItems: "center" }}>
-              <Image src={Ele} />
+              <Image
+                className="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex justify-center items-center"
+                src={Ele}
+                alt="Garantia"
+              />
               <p className="text-xl text-gray-600 mb-6">
                 Além de suas realizações locais, Sávio Batista prepara-se para
                 um novo capítulo em sua carreira. Com um Research Fellow já
