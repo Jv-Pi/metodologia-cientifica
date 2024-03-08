@@ -86,7 +86,7 @@ export default function Hero() {
             <Image
               src={Medica}
               alt="medica"
-              style={{ maxWidth: "100%", height: "auto" }}
+              style={{ maxWidth: "100%", height: "600px" }}
             />
 
             {/* Vídeo */}
@@ -99,6 +99,13 @@ export default function Hero() {
               videoWidth={1920}
               videoHeight={1080}
             />
+            <a
+              id="subscribeBtn"
+              className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
+              href="#0"
+            >
+              Quero Fazer parte do Time
+            </a>
           </div>
         </div>
       </div>

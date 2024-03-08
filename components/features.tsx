@@ -2,8 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
-import Image from "next/image";
-import Carousel from "react-bootstrap/Carousel";
+
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
 
@@ -31,8 +30,10 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">"Nós escolhemos ir à lua."</h1>
-            <p className="text-xl text-gray-600">John F. Kennedy, 1962</p>
+            <h1 className="h2 mb-4">
+              "O sucesso é a soma de pequenos esforços repetidos dia após dia."
+            </h1>
+            <p className="text-xl text-gray-600">Robert Collier</p>
           </div>
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">

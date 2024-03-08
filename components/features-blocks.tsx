@@ -9,42 +9,29 @@ export default function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <p className="text-xl text-gray-600 mb-6">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+              O Curso de Metodologia Científica, ministrado pelo Sávio Batista
+              ao longo de 13 semanas, oferece aulas ao vivo abordando desde a
+              ideia de projetos científicos até a execução de estatísticas e
+              redação de manuscritos. Combinando aulas teóricas e mostrando de
+              forma prática, o curso capacita os participantes a conduzirem
+              revisões sistemáticas de maneira independente. Além disso
+              abordaremos temas como, impacto da pesquisa na carreira médica,
+              como ter um currículo competitivo e formas de usar a escrita
+              científica para fazer networking e pontuar na residência.
             </p>
             <p className="text-xl text-gray-600 mb-6">
-              O Intensivo de Metas é uma imersão de 10 semanas de aulas ao vivo
-              com o professor Rhanderson Cardoso para você aprender desde o zero
-              como criar um projeto, fazer a estatística e escrever o
-              manuscrito. O formato do curso é dividido em aulas teóricas e
-              práticas para te conduzir a fazer uma revisão sistemática e
-              meta-análise de forma independente.
+              Sávio Batista, estudante de medicina do 12 semestre na
+              Universidade Federal do Rio de Janeiro , possui ampla experiência
+              em pesquisa, com mais de 50 publicações indexadas, contratado para
+              um research fellow nos EUA antes mesmo de terminar a faculdade e
+              membro de um garnde grupo brasileiro de pesquisa o MB Research
+              Group.
             </p>
             <p className="text-xl text-gray-600 mb-6">
-              O professor do Intensivo de Metas é o Dr. Rhanderson Cardoso,
-              médico cardiologista formado pela Universidade Federal de Goiás,
-              com residência em clínica médica pela Universidade de Miami e
-              residência em cardiologia pelo Hospital Johns Hopkins, nos EUA. O
-              Dr. Rhanderson também foi fellow e chief fellow em imagem cardíaca
-              na Harvard Medical School, Brigham and Women’s Hospital, onde
-              atualmente atua como cardiologista e professor. O Dr. Rhanderson
-              possui mais de 70 publicações indexadas e mais de 1.400 citações.
-            </p>
-            <p className="text-xl text-gray-600 mb-6">
-              Além disso, diversos alunos já aplicaram o método do Dr.
-              Rhanderson e obtiveram resultados igualmente extraordinários.
-              <a
-                id="subscribeBtn"
-                className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
-                href="#0"
-              >
-                Clica Aqui
-              </a>
-            </p>
-            <p className="text-xl text-gray-600 mb-6">
-              ATENÇÃO! O Intensivo de Metas não possui filiação às instituições
-              de ensino mencionadas.
+              Diversos alunos já obtiveram resultados extraordinários aplicando
+              a metodologia do Sávio. Clique aqui para mais informações e
+              garanta sua participação neste curso que pode transformar sua
+              abordagem à pesquisa científica.
             </p>
             <a
               id="subscribeBtn"

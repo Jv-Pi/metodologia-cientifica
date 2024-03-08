@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SeloGarantia from "../public/images/selo-garantia.png"; // Importe a imagem
+import SeloGarantia from "../public/images/selo-garantia.png";
 export default function Testimonials() {
   return (
     <section className="relative">
