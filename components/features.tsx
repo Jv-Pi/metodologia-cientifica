@@ -2,6 +2,28 @@
 
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
+import { Carousel } from "@material-tailwind/react";
+import Image from "next/image";
+import Image1 from "../public/images/1.jpeg";
+import Image2 from "@/public/images/2.jpeg";
+import Image3 from "@/public/images/3.jpeg";
+import Image4 from "@/public/images/4.jpeg";
+import Image5 from "@/public/images/5.jpeg";
+import Image6 from "@/public/images/6.jpeg";
+
+import Paper2 from "@/public/images/Screenshot_2.png";
+import Paper3 from "@/public/images/Screenshot_3.png";
+import Paper4 from "@/public/images/Screenshot_4.png";
+import Paper5 from "@/public/images/Screenshot_5.png";
+import Paper6 from "@/public/images/Screenshot_6.png";
+import Paper7 from "@/public/images/Screenshot_7.png";
+import Paper8 from "@/public/images/Screenshot_8.png";
+import Paper9 from "@/public/images/Screenshot_9.png";
+import Paper10 from "@/public/images/Screenshot_10.png";
+import Paper11 from "@/public/images/Screenshot_11.png";
+import Paper12 from "@/public/images/Screenshot_12.png";
+import Paper13 from "@/public/images/Screenshot_13.png";
+import Paper14 from "@/public/images/Screenshot_14.png";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -19,7 +41,7 @@ export default function Features() {
 
   return (
     <section className="relative">
-      {/* Section background (needs .relative class on parent and next sibling elements) */}
+      {/* Section background (needs .relative className on parent and next sibling elements) */}
       <div
         className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
         aria-hidden="true"
@@ -128,7 +150,42 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    eventos
+                    <Carousel
+                      loop="true"
+                      autoplay="true"
+                      className="rounded-xl"
+                    >
+                      <Image
+                        src={Image1}
+                        alt="image 1"
+                        className="h-96 w-full object-cover"
+                      />
+                      <Image
+                        src={Image2}
+                        alt="image 2"
+                        className="h-96 w-full object-cover"
+                      />
+                      <Image
+                        src={Image3}
+                        alt="image 3"
+                        className="h-96 w-full object-cover"
+                      />
+                      <Image
+                        src={Image4}
+                        alt="image 3"
+                        className="h-96 w-full object-cover"
+                      />
+                      <Image
+                        src={Image5}
+                        alt="image 3"
+                        className="h-96 w-full object-cover"
+                      />
+                      <Image
+                        src={Image6}
+                        alt="image 3"
+                        className="h-96 w-full object-cover"
+                      />
+                    </Carousel>
                   </Transition>
                   {/* Item 2 */}
                   <Transition
@@ -144,7 +201,77 @@ export default function Features() {
                     beforeEnter={() => heightFix()}
                     unmount={false}
                   >
-                    artigos
+                    <Carousel
+                      loop="true"
+                      autoplay="true"
+                      className="rounded-xl"
+                    >
+                      <Image
+                        src={Paper2}
+                        alt="image 1"
+                        className="h-96 w-full "
+                      />
+                      <Image
+                        src={Paper3}
+                        alt="image 2"
+                        className="h-96 w-full "
+                      />
+                      <Image
+                        src={Paper4}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper5}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper6}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper7}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper8}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper9}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper10}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper11}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper12}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper13}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                      <Image
+                        src={Paper14}
+                        alt="image 3"
+                        className="h-96 w-full"
+                      />
+                    </Carousel>
                   </Transition>
                 </div>
               </div>
