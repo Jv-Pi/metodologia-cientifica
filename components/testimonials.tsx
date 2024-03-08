@@ -41,7 +41,7 @@ export default function Testimonials() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex justify-center items-center">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h2 className="h2 mb-4">GARANTIA DE SATISFAÇÃO</h2>
             <p className="text-xl text-gray-600 mb-6">
               Se você, dentro do prazo de 7 dias corridos, contados da data de
