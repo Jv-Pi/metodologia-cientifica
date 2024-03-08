@@ -1,44 +1,4 @@
-import React, { useState } from "react";
 export default function Newsletter() {
-  const [email, setEmail] = useState("");
-  const [isNewsletterChecked, setIsNewsletterChecked] = useState(false);
-  const [isTermsChecked, setIsTermsChecked] = useState(false);
-  const [paymentOption, setPaymentOption] = useState("cash");
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handleNewsletterChange = (e) => {
-    setIsNewsletterChecked(e.target.checked);
-  };
-
-  const handleTermsChange = (e) => {
-    setIsTermsChecked(e.target.checked);
-  };
-
-  const handlePaymentChange = (e) => {
-    setPaymentOption(e.target.value);
-  };
-
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-
-    if (!isTermsChecked) {
-      alert("Please agree to the terms.");
-      return;
-    }
-
-    let buyLink;
-    if (paymentOption === "cash") {
-      buyLink = "https://example.com/buy-cash";
-    } else if (paymentOption === "installment") {
-      buyLink = "https://example.com/buy-installment";
-    }
-
-    console.log("Redirecting to: " + buyLink);
-    // window.location.href = buyLink; // Uncomment this line to redirect for real
-  };
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
