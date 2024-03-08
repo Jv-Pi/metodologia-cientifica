@@ -1,4 +1,45 @@
+import React, { useState } from "react";
+
 export default function Newsletter() {
+  const [email, setEmail] = useState("");
+  const [isNewsletterChecked, setIsNewsletterChecked] = useState(false);
+  const [isTermsChecked, setIsTermsChecked] = useState(false);
+  const [paymentOption, setPaymentOption] = useState("cash");
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleNewsletterChange = (e) => {
+    setIsNewsletterChecked(e.target.checked);
+  };
+
+  const handleTermsChange = (e) => {
+    setIsTermsChecked(e.target.checked);
+  };
+
+  const handlePaymentChange = (e) => {
+    setPaymentOption(e.target.value);
+  };
+
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+
+    if (!isTermsChecked) {
+      alert("Please agree to the terms.");
+      return;
+    }
+
+    let buyLink;
+    if (paymentOption === "cash") {
+      buyLink = "https://example.com/buy-cash";
+    } else if (paymentOption === "installment") {
+      buyLink = "https://example.com/buy-installment";
+    }
+
+    console.log("Redirecting to: " + buyLink);
+    // window.location.href = buyLink; // Uncomment this line to redirect for real
+  };
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -108,29 +149,68 @@ export default function Newsletter() {
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
                   <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
+                    <input
+                      type="email"
+                      className="form-input w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-500"
+                      placeholder="Your email…"
+                      aria-label="Your email…"
+                      value={email}
+                      onChange={handleEmailChange}
+                    />
+                    <div className="flex items-center">
+                      <input
+                        type="checkbox"
+                        id="newsletter"
+                        checked={isNewsletterChecked}
+                        onChange={handleNewsletterChange}
+                        className="mr-2"
+                      />
+                      <label htmlFor="newsletter" className="text-white">
+                        Subscribe to newsletter
+                      </label>
+                    </div>
                     <div className="flex items-center ml-4">
-                      <input type="checkbox" id="terms" className="mr-2" />
+                      <input
+                        type="checkbox"
+                        id="terms"
+                        checked={isTermsChecked}
+                        onChange={handleTermsChange}
+                        className="mr-2"
+                      />
                       <label htmlFor="terms" className="text-white">
                         I agree to the terms
                       </label>
                     </div>
-                    <select
-                      id="payment"
-                      className="ml-4 form-select bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 text-white"
-                    >
-                      <option value="cash">À vista</option>
-                      <option value="installment">Parcelado</option>
-                    </select>
-                    <a
-                      id="subscribeBtn"
+                    <div className="ml-4">
+                      <select
+                        id="payment"
+                        className="form-select bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 text-white"
+                        value={paymentOption}
+                        onChange={handlePaymentChange}
+                      >
+                        <option value="cash">À vista (-10% de desconto)</option>
+                        <option value="installment">
+                          Parcelado (12x R$ 647,52)
+                        </option>
+                      </select>
+                      {paymentOption === "cash" && (
+                        <p className="text-white mt-2">
+                          Valor total: R$ 9.710,28
+                        </p>
+                      )}
+                      {paymentOption === "installment" && (
+                        <p className="text-white mt-2">
+                          Valor total: R$ 10.789,20
+                        </p>
+                      )}
+                    </div>
+                    <button
                       className="btn text-white bg-blue-600 hover:bg-blue-700 shadow ml-4"
-                      href="#0"
+                      onClick={handleSubscribe}
                     >
                       Subscribe
-                    </a>
+                    </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
                   <p className="text-sm text-gray-400 mt-3">
                     No spam. You can unsubscribe at any time.
                   </p>
