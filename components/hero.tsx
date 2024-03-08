@@ -82,7 +82,7 @@ export default function Hero() {
           >
             {/* Imagem */}
             <img
-              src="/metodologia-cientifica/public/images/testimonial.jpg"
+              src="metodologia-cientifica/public/images/medico.jpg"
               alt="Imagem"
               style={{ maxWidth: "100%", height: "auto" }}
             />
