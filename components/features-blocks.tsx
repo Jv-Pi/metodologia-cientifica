@@ -33,12 +33,7 @@ export default function FeaturesBlocks() {
               garanta sua participação neste curso que pode transformar sua
               abordagem à pesquisa científica.
             </p>
-            <button
-              style={{
-                marginTop: "100px",
-              }}
-              className="absolute top-full flex items-center transform -translate-y-1/2 bg-black text-white  rounded-full font-medium group p-4 shadow-lg"
-            >
+            <button className="items-center transform bg-black text-white  rounded-full font-medium group p-4 shadow-lg">
               <span className="ml-3">Quero Fazer Parte do Time </span>
             </button>
           </div>

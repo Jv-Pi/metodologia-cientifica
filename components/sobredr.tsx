@@ -38,12 +38,7 @@ export default function Sobredr() {
               oportunidades nacionais e internacionais de trabalho à como
               conseguir alcançar esses sonhos!
             </p>
-            <button
-              style={{
-                marginTop: "100px",
-              }}
-              className="absolute top-full flex items-center transform -translate-y-1/2 bg-black text-white  rounded-full font-medium group p-4 shadow-lg"
-            >
+            <button className=" transform bg-black text-white  rounded-full font-medium group p-4 shadow-lg">
               <span className="ml-3">Quero Fazer Parte do Time </span>
             </button>
           </div>
