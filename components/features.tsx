@@ -1,5 +1,4 @@
 "use client";
-import ModalGalery from "@/components/modal-galery";
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 
